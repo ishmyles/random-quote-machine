@@ -30,6 +30,7 @@
 }
 
 #quote {
+  position: relative;
   background-color: var(--speech-bubble);
   padding: 20px;
   border-radius: 10px;
