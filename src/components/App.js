@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import bgImg from './naruto-img-sm.png';
 
 class App extends Component {
   constructor(props) {
@@ -44,7 +45,7 @@ class App extends Component {
             <button type='button' onClick={this.getAnimeQuote} className="btn btn-dark" id="new-quote">New Quote</button>
           </div>
         </div>
-        <img src="./random-quote-machine/images/naruto-img-sm.png" alt="Naruto looking up" id="img-hero" className="img"/>
+        <img src={bgImg} alt="Naruto looking up" id="img-hero" className="img"/>
         <p className='attribution'>Image by <a href="https://pixabay.com/users/hiteshhtsharma-7440487/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5150379">Hitesh Sharma</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5150379">Pixabay</a></p> 
       </div>
     );
