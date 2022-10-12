@@ -1,0 +1,78 @@
+:root {
+  --speech-bubble: white;
+  --bg-color: #f68e5f;
+}
+
+.container-fluid {
+  position: relative;
+  background-color: var(--bg-color);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10%;
+}
+
+.img {
+  display: block;
+}
+
+#img-hero {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 300px;
+}
+
+#quote-box {
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+#quote {
+  background-color: var(--speech-bubble);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#text {
+  font-size: 1.5em;
+  padding: 0 25px;
+}
+
+.quote {
+  display: inline-block;
+  width: 100%;
+}
+
+#quote::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 200px solid var(--speech-bubble);
+  border-left: 75px solid transparent;
+  right: 30%;
+}
+
+.left-quote {
+  text-align: left;
+}
+
+.right-quote {
+  text-align: right;
+}
+
+#author {
+  display: inline-block;
+}
+
+.blockquote-footer {
+  margin-bottom: 0;
+}
+
+#btns {
+  display: flex;
+  gap: 15px;
+}
