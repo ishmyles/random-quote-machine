@@ -90,9 +90,14 @@
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #quote::after {
     border-top: 150px solid var(--speech-bubble);
+  }
+
+  #img-hero {
+    height: 450px;
+    width: 500px;
   }
 
   .attribution {
