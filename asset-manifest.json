@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/random-quote-machine/static/css/main.609d2a93.css",
-    "main.js": "/random-quote-machine/static/js/main.a13bb20c.js",
+    "main.js": "/random-quote-machine/static/js/main.9da6c51e.js",
+    "static/media/naruto-img-sm.png": "/random-quote-machine/static/media/naruto-img-sm.51e4048305e538299fc9.png",
     "index.html": "/random-quote-machine/index.html",
     "main.609d2a93.css.map": "/random-quote-machine/static/css/main.609d2a93.css.map",
-    "main.a13bb20c.js.map": "/random-quote-machine/static/js/main.a13bb20c.js.map"
+    "main.9da6c51e.js.map": "/random-quote-machine/static/js/main.9da6c51e.js.map"
   },
   "entrypoints": [
     "static/css/main.609d2a93.css",
-    "static/js/main.a13bb20c.js"
+    "static/js/main.9da6c51e.js"
   ]
 }
