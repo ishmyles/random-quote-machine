@@ -36,7 +36,6 @@
 }
 
 #text {
-  font-size: 1.5em;
   padding: 0 25px;
 }
 
@@ -51,8 +50,8 @@
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 200px solid var(--speech-bubble);
-  border-left: 75px solid transparent;
+  border-top: 100px solid var(--speech-bubble);
+  border-left: 50px solid transparent;
   right: 30%;
 }
 
@@ -75,4 +74,27 @@
 #btns {
   display: flex;
   gap: 15px;
+}
+
+.attribution {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.700);
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+}
+
+
+@media (min-width: 1000px) {
+  #quote::after {
+    border-top: 150px solid var(--speech-bubble);
+  }
+
+  .attribution {
+    background-color: transparent;
+  }
 }
